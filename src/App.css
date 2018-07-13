@@ -13,7 +13,11 @@
     padding: 20px;
     color: white;
 }
-
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
 .App-title {
     font-size: 1.5em;
 }
