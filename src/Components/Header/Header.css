@@ -1,0 +1,16 @@
+.header-main {
+    width: 100vw;
+    height: 70px;
+}
+
+.Portfolio-header {
+    background-color: #222;
+    height: 70px;
+    padding: 20px;
+    color: white;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}

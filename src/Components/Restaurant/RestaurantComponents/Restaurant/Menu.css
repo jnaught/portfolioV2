@@ -1,0 +1,41 @@
+.menu-main {
+    background-color: darkred;
+    width: 100%;
+    height: 200vh;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menubg {
+    background-color: darkred;
+    width: 100%;
+    height: auto;
+}
+.menuitems {
+    width: 80%;
+    height: 100vh;
+    font-size: 20px;
+}
+.menu-container {
+    display: flex;
+    padding-top: 15px;
+}
+.menuimgsize {
+    border-radius: 10%;
+    margin-right: 100px;
+    max-width: 50%;
+    height: auto;
+}
+.row {
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.col {
+    background-color: royalblue;
+    width: 25%;
+    height: 25vh;
+}

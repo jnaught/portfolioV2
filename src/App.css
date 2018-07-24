@@ -1,23 +1,17 @@
 .App {
     text-align: center;
 }
-
+.siteroutes {
+    padding-top: 110px;
+}
+.header-fixed {
+    position: fixed;
+}
 .App-logo {
     animation: App-logo-spin infinite 20s linear;
     height: 80px;
 }
 
-.Portfolio-header {
-    background-color: #222;
-    height: 70px;
-    padding: 20px;
-    color: white;
-}
-.nav {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-}
 .App-title {
     font-size: 1.5em;
 }
