@@ -7,100 +7,164 @@ export default class Menu extends React.Component {
         return (
             <div className="menu-main">
                 <div className="menubg">
-                    <p>Hello World I am the Menu</p>
+                    <p>Menu</p>
                     <div className="main">
                         <div className="menuitems">
                             <p> Surf and Turf</p>
                             <div className="menu-container">
                                 <div className="row col">
-                                    <p>menu items here</p>
-                                    <img
-                                        src={menuimage}
-                                        className="menuimgsize"
-                                    />
+                                    <p>item name</p>
+                                    <div className="menuinfo">
+                                        <div className="items">
+                                            <div>
+                                                <img
+                                                    src={menuimage}
+                                                    className="menuimgsize"
+                                                />
+                                            </div>
+                                            <div className="description">
+                                                <p> item description</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="row col">
-                                    <p>menu items here</p>
-                                    <img
-                                        src={menuimage}
-                                        className="menuimgsize"
-                                    />
+                                    <p>item name</p>
+                                    <div>
+                                        <img
+                                            src={menuimage}
+                                            className="menuimgsize"
+                                        />
+                                    </div>
+                                    <div className="description">
+                                        <p> item description</p>
+                                    </div>
                                 </div>
                                 <div className="row col">
-                                    <p>menu items here</p>
-                                    <img
-                                        src={menuimage}
-                                        className="menuimgsize"
-                                    />
+                                    <p>item name</p>
+                                    <div>
+                                        <img
+                                            src={menuimage}
+                                            className="menuimgsize"
+                                        />
+                                    </div>
+                                    <div className="description">
+                                        <p> item description</p>
+                                    </div>
                                 </div>
                                 <div className="row col">
-                                    <p>menu items here</p>
-                                    <img
-                                        src={menuimage}
-                                        className="menuimgsize"
-                                    />
+                                    <p>item name</p>
+                                    <div>
+                                        <img
+                                            src={menuimage}
+                                            className="menuimgsize"
+                                        />
+                                    </div>
+                                    <div className="description">
+                                        <p> item description</p>
+                                    </div>
                                 </div>
                             </div>
                             <p>Pasta</p>
                             <div className="menu-container">
                                 <div className="row col">
-                                    <p>menu items here</p>
-                                    <img
-                                        src={menuimage}
-                                        className="menuimgsize"
-                                    />
+                                    <p>item name</p>
+                                    <div>
+                                        <img
+                                            src={menuimage}
+                                            className="menuimgsize"
+                                        />
+                                    </div>
+                                    <div className="description">
+                                        <p> item description</p>
+                                    </div>
                                 </div>
                                 <div className="row col">
-                                    <p>menu items here</p>
-                                    <img
-                                        src={menuimage}
-                                        className="menuimgsize"
-                                    />
+                                    <p>item name</p>
+                                    <div>
+                                        <img
+                                            src={menuimage}
+                                            className="menuimgsize"
+                                        />
+                                    </div>
+                                    <div className="description">
+                                        <p> item description</p>
+                                    </div>
                                 </div>
                                 <div className="row col">
-                                    <p>menu items here</p>
-                                    <img
-                                        src={menuimage}
-                                        className="menuimgsize"
-                                    />
+                                    <p>item name</p>
+                                    <div>
+                                        <img
+                                            src={menuimage}
+                                            className="menuimgsize"
+                                        />
+                                    </div>
+                                    <div className="description">
+                                        <p> item description</p>
+                                    </div>
                                 </div>
                                 <div className="row col">
-                                    <p>menu items here</p>
-                                    <img
-                                        src={menuimage}
-                                        className="menuimgsize"
-                                    />
+                                    <p>item name</p>
+                                    <div>
+                                        <img
+                                            src={menuimage}
+                                            className="menuimgsize"
+                                        />
+                                    </div>
+                                    <div className="description">
+                                        <p> item description</p>
+                                    </div>
                                 </div>
                             </div>
                             <p>Salads</p>
                             <div className="menu-container">
                                 <div className="row col">
-                                    <p>menu items here</p>
-                                    <img
-                                        src={menuimage}
-                                        className="menuimgsize"
-                                    />
+                                    <p>item name</p>
+                                    <div>
+                                        <img
+                                            src={menuimage}
+                                            className="menuimgsize"
+                                        />
+                                    </div>
+                                    <div className="description">
+                                        <p> item description</p>
+                                    </div>
                                 </div>
                                 <div className="row col">
-                                    <p>menu items here</p>
-                                    <img
-                                        src={menuimage}
-                                        className="menuimgsize"
-                                    />
+                                    <p>item name</p>
+                                    <div>
+                                        <img
+                                            src={menuimage}
+                                            className="menuimgsize"
+                                        />
+                                    </div>
+                                    <div className="description">
+                                        <p> item description</p>
+                                    </div>
                                 </div>
                                 <div className="row col">
-                                    <p>menu items here</p>
-                                    <img
-                                        src={menuimage}
-                                        className="menuimgsize"
-                                    />
+                                    <p>item name</p>
+                                    <div>
+                                        <img
+                                            src={menuimage}
+                                            className="menuimgsize"
+                                        />
+                                    </div>
+                                    <div className="description">
+                                        <p> item description</p>
+                                    </div>
                                 </div>
                                 <div className="row col">
-                                    <p>menu items here</p>
-                                    <img
-                                        src={menuimage}
-                                        className="menuimgsize"
-                                    />
+                                    <p>item name</p>
+                                    <div>
+                                        <img
+                                            src={menuimage}
+                                            className="menuimgsize"
+                                        />
+                                    </div>
+                                    <div className="description">
+                                        <p> item description</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

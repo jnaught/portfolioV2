@@ -26,12 +26,14 @@ export default class Restaurant extends Component {
                             </li>
                         </nav>
                     </header>
-                    <div className="title">
-                        <p>Tay Stee's</p>
-                        <div className="restaurant-subtitle">
-                            Gourmet Restaurant
+                    <div className="restaurant-logo">
+                        <div className="title">
+                            <p>Tay Stee's</p>
+                            <div className="restaurant-subtitle">
+                                Gourmet Restaurant
+                            </div>
+                            <div>{restaurantRoutes}</div>
                         </div>
-                        <div>{restaurantRoutes}</div>
                     </div>
                 </div>
             </div>

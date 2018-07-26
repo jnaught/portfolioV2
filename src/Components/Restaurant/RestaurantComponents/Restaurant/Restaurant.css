@@ -5,9 +5,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    background-attachment: fixed;
+    height: 95.2vh;
+}
+.restaurant-logo {
+    height: 200px;
 }
 .title {
+    padding-top: 220px;
     color: white;
     font-size: 80px;
     font-family: "Oleo Script", cursive;
@@ -17,6 +22,8 @@
     font-size: 30px;
 }
 .restaurant-header {
+    margin-top: 80px;
+    position: fixed;
     background-color: rgb(77, 77, 77);
     height: 20px;
     width: 100%;
