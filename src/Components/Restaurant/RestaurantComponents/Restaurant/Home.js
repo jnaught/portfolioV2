@@ -1,17 +1,16 @@
-import React, { Component } from "react";
-import "./Restaurant.css";
+import React from "react";
 import Button from "../../../ReusableAssets/Button";
 import { Link } from "react-router-dom";
 import restaurantRoutes from "./restaurantRoutes";
 import SiteTitle from "../../../ReusableAssets/SiteTitle";
 
-export default class Restaurant extends Component {
+export default class Restaurant extends React.Component {
   render() {
     const btn = "Button Name";
     const title = {
       name: "Tay Stee'z",
       style: {
-        color: "white",
+        color: "blue",
         fontSize: 100
       }
     };
