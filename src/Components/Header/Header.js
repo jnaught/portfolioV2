@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 export default class Header extends React.Component {
   render() {
@@ -8,9 +9,9 @@ export default class Header extends React.Component {
         <header className="Portfolio-header">
           <h1 className="App-title">AaronNacua.com</h1>
           <nav className="nav">
-            <li>Home</li>
+            <Link to="/">Home</Link>
             <li>Re-usable Components</li>
-            <li> Restaurant App</li>
+            <Link to="restaurant"> Restaurant App</Link>
           </nav>
         </header>
       </div>

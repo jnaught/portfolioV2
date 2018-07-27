@@ -27,7 +27,7 @@ export default class Restaurant extends Component {
                 <a href="#">RESTAURANT</a>
               </li>
               <li className="list">
-                <Link to="/Menu" className="menu">
+                <Link to="/restaurant/Menu" className="menu">
                   MENU
                 </Link>
               </li>

@@ -5,6 +5,6 @@ import Menu from "./Menu";
 
 export default (
   <Switch>
-    <Route exact path="/Menu" component={Menu} />
+    <Route path="/restaurant/Menu" component={Menu} />
   </Switch>
 );

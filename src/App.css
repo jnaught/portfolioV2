@@ -1,12 +1,19 @@
 .App {
     text-align: center;
 }
+
 .siteroutes {
     padding-top: 30px;
 }
+
 .header-fixed {
     position: fixed;
 }
+
+.routes {
+    padding-top: 70px;
+}
+
 .App-logo {
     animation: App-logo-spin infinite 20s linear;
     height: 80px;

@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Oleo+Script");
-
 .bg {
     background-image: url(../RestaurantAssets/restaurant-bgimage.JPG);
     background-position: center;
@@ -8,30 +7,36 @@
     background-attachment: fixed;
     height: 95.2vh;
 }
+
 .restaurant-logo {
     height: 200px;
 }
+
 .title {
     padding-top: 220px;
     color: white;
     font-size: 80px;
     font-family: "Oleo Script", cursive;
 }
+
 .restaurant-subtitle {
     margin-top: -105px;
     font-size: 30px;
 }
+
 .restaurant-header {
-    margin-top: 80px;
+    margin-top: 40px;
     position: fixed;
     background-color: rgb(77, 77, 77);
     height: 20px;
     width: 100%;
 }
+
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+
 .restaurant-nav {
     width: 50%;
     float: right;
@@ -39,9 +44,11 @@ a {
     justify-content: space-around;
     list-style-type: none;
 }
+
 .list {
     color: yellow;
 }
+
 a:hover {
     color: blue;
 }
